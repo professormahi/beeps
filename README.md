@@ -40,3 +40,10 @@ Here I added python code to run some beeps over linux beep command.
 - sandstorm
 - songoftime
 - tetris
+
+# Need to add new songs?
+- Use [BeepBox](http://www.beepbox.co) to create your song!
+- Export the song to `.midi` file.
+- Use [mid2beep](https://github.com/Cqoicebordel/mid2beep) to convert song to `beep` command.
+- Save the output to `~/.config/beeps` as a `.sh` file.
+- Run `beeps <your song>`.
